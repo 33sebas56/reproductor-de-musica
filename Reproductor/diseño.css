@@ -1,0 +1,84 @@
+QMainWindow {
+    background-image: url(images/digital-art-dark-cosmic-night-sky.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+QDockWidget{
+    background-color: rgba(255, 255, 255, 0.207);
+    color: rgb(251, 250, 250);
+    font-weight: bold;
+}
+QListWidget{
+    background-color: rgba(255, 255, 255, 0.207);
+    color: rgb(255, 255, 255);
+}
+QTabWidget::pane{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0;
+} 
+QTabBar::tab{
+    background-color: rgba(255, 255, 255, 0.207);
+    color : white;
+    font-weight: boid
+} 
+QPushButton#button_repeat{
+    background-color: #ffffff;
+    image: url(images/flecha.png);
+    border-radius: 20px;
+    padding: 1px;
+}
+QPushButton#button_repeat:pressed{
+    background-color: rgb(137, 20, 157);
+}
+QPushButton#button_before{
+    background-color: #ffffff;
+    image: url(images/boton-de-reproduccion-y-pausa\ \(2\).png);
+    border-radius: 20px;
+    padding: 1px;
+}
+QPushButton#button_before:pressed{
+    background-color: rgb(137, 20, 157);
+}
+QPushButton#button_play{
+    background-color: #ffffff;
+    image: url(images/punta-de-flecha-del-boton-de-reproduccion.png);
+    border-radius: 20px;
+    padding: 1px;
+}
+QPushButton#button_play:pressed{
+    background-color: rgb(137, 20, 157);
+}
+QPushButton#button_next{
+    background-color: #ffffff;
+    image: url(images/boton-de-reproduccion-y-pausa\ \(1\).png);
+    border-radius: 20px;
+    padding: 1px;
+}
+QPushButton#button_next:pressed{
+    background-color: rgb(137, 20, 157);
+}
+QPushButton#button_radom{
+    background-color: #ffffff;
+    image: url(images/aleatorio.png);
+    border-radius: 20px;
+    padding: 1px;
+}
+QPushButton#button_radom:pressed{
+    background-color: rgb(137, 20, 157);
+}
+QStatusBar{
+    background-color: black;
+    color: #ffffff;
+    font-weight: boid;
+}
+QMenuBar QMenu{
+    background-color: rgb(4, 7, 70);
+    color: white;
+    font-weight: bold;
+}
+QMenuBar QMenu:item:selected {
+    background-color: #9696a4;
+}
+QMenuBar QMenu:item:passed {
+    background-color: rgb(57, 20, 83);
+}
